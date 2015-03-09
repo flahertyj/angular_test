@@ -22,13 +22,6 @@
 
   <div ng-view></div>
 
-  <div ng-controller="CityController as cityCtrl">
-    List of Cities:
-    <ul ng-repeat="city in cityList | orderBy:'name'">
-      <li><a href='#/city/{{city.id}}'>{{city.name}}</a></li>
-    </ul>
-  </div>
-
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
   -->

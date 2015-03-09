@@ -1,0 +1,5 @@
+<div>
+  <ul ng-repeat="city in cityList | orderBy:'name'">
+    <li><a href='#/{{city.name}}'>{{city.name}}</a></li>
+  </ul>
+</div>

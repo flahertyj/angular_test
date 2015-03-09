@@ -1,5 +1,6 @@
 <div ng-repeat='photo in cityDetails.photos'>
   <a href='{{photo.url}}'><img ng-src='{{photo.thumb}}'></a>
   <br>
-  {{photo.caption}}
+  <span class="caption">{{photo.caption}}</span>
+  <br>
 </div>
