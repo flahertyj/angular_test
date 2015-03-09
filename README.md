@@ -1,5 +1,7 @@
 Hey folks at MapQuest.  Here's a brief overview about why this might look a
-little different and I wanted to explain.  Every AngularJS project I've worked
+little different and I wanted to explain.
+
+Every AngularJS project I've worked
 on either was already built and was added to or started from angular-seed
 project: https://github.com/angular/angular-seed
 
